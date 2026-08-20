@@ -1,6 +1,9 @@
 # Day 2: Variables, Names, Values, Input, and Output
 
-[← Day 1](../day_01_setup_and_safe_practice/day_01_setup_and_safe_practice.md) · [Day index](../DAY_INDEX.md) · [Day 3 →](../day_03_types_and_parsing/day_03_types_and_parsing.md)
+[← Day 1](../day_1_setup_and_safe_practice/day_1_setup_and_safe_practice.md) · [Day index](../DAY_INDEX.md) · [Day 3 →](../day_3_types_and_parsing/day_3_types_and_parsing.md)
+
+
+
 
 
 
@@ -12,12 +15,13 @@
 - [Before you begin](#before-you-begin)
 - [What you will learn](#what-you-will-learn)
 - [The problem: how does a program remember information?](#the-problem-how-does-a-program-remember-information)
-- [Vocabulary](#vocabulary)
+- [Keywords and terms](#keywords-and-terms)
   - [Value](#value)
   - [Variable and name](#variable-and-name)
   - [Type](#type)
   - [Assignment](#assignment)
   - [Input and output](#input-and-output)
+- [Topics](#topics)
 - [1. Creating variables with assignment](#1-creating-variables-with-assignment)
 - [2. Naming variables correctly](#2-naming-variables-correctly)
   - [Naming rules](#naming-rules)
@@ -108,7 +112,7 @@ print("source=training-auth severity=7 review_required=True")
 
 The large string may look informative, but Python sees one piece of text. It cannot automatically treat the `7` inside that text as a number. Separate variables make a program easier to calculate, validate, test, and explain.
 
-## Vocabulary
+## Keywords and terms
 
 ### Value
 
@@ -129,6 +133,10 @@ A **type** tells Python what kind of value it is handling. A string is text, an 
 ### Input and output
 
 **Input** is information entering a program. It may come from a keyboard, file, command-line argument, or network. **Output** is information the program sends to the terminal, a file, or another program. Input is not automatically trustworthy, and output should be deliberate.
+
+## Topics
+
+This lesson teaches **Variables, Names, Values, Input, and Output** as a sequence of topics. Read the topics in order: first understand the basic idea, then learn the syntax, then study variations and boundaries, and finally apply the idea to a bounded cybersecurity fixture.
 
 ## 1. Creating variables with assignment
 
@@ -598,4 +606,4 @@ Day 2 is complete when you can explain a value, variable, type, name, assignment
 [5]: https://docs.python.org/3/library/functions.html#int "Python int documentation"
 [6]: https://owasp.org/www-community/attacks/Improper_Error_Handling "OWASP error handling guidance"
 
-[← Day 1](../day_01_setup_and_safe_practice/day_01_setup_and_safe_practice.md) · [Day index](../DAY_INDEX.md) · [Day 3 →](../day_03_types_and_parsing/day_03_types_and_parsing.md)
+[← Day 1](../day_1_setup_and_safe_practice/day_1_setup_and_safe_practice.md) · [Day index](../DAY_INDEX.md) · [Day 3 →](../day_3_types_and_parsing/day_3_types_and_parsing.md)

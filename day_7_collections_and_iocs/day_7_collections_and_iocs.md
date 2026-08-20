@@ -1,6 +1,9 @@
 # Day 7: Collections and an Indicator Catalog
 
-[← Day 6](../day_06_loops_and_bounded_work/day_06_loops_and_bounded_work.md) · [Day index](../DAY_INDEX.md) · [Day 8 →](../day_08_strings_and_canonicalization/day_08_strings_and_canonicalization.md)
+[← Day 6](../day_6_loops_and_bounded_work/day_6_loops_and_bounded_work.md) · [Day index](../DAY_INDEX.md) · [Day 8 →](../day_8_strings_and_canonicalization/day_8_strings_and_canonicalization.md)
+
+
+
 
 
 
@@ -13,8 +16,8 @@
 - [Outcomes](#outcomes)
 - [The problem](#the-problem)
 - [Security boundary](#security-boundary)
-- [Vocabulary](#vocabulary)
-- [Lesson](#lesson)
+- [Keywords and terms](#keywords-and-terms)
+- [Topics](#topics)
 - [1. Lists preserve order and duplicates](#1-lists-preserve-order-and-duplicates)
 - [2. Sets answer membership questions](#2-sets-answer-membership-questions)
 - [3. Dictionaries label fields](#3-dictionaries-label-fields)
@@ -57,11 +60,11 @@ A small indicator catalog needs to preserve observations, remove duplicates when
 
 This lesson is educational and local. It does not authorize public scanning, credential use, data collection, exploitation, interception, or changes to systems you do not own. The cybersecurity examples use invented names, loopback targets, or repository fixtures.
 
-## Vocabulary
+## Keywords and terms
 
 A **list** is an ordered, changeable collection. A **tuple** is an ordered collection commonly used for fixed groups. A **set** stores unique values without promising list-style order. A **dictionary** maps keys to values. A **membership test** asks whether a value is present.
 
-## Lesson
+## Topics
 
 A list preserves order:
 
@@ -321,4 +324,4 @@ Day 7 is complete when you can choose a collection based on order, uniqueness, m
 [3]: https://docs.python.org/3/library/stdtypes.html#set "Python set documentation"
 [4]: https://www.cisa.gov/topics/cyber-threats-and-advisories "CISA cyber threat guidance"
 
-[← Day 6](../day_06_loops_and_bounded_work/day_06_loops_and_bounded_work.md) · [Day index](../DAY_INDEX.md) · [Day 8 →](../day_08_strings_and_canonicalization/day_08_strings_and_canonicalization.md)
+[← Day 6](../day_6_loops_and_bounded_work/day_6_loops_and_bounded_work.md) · [Day index](../DAY_INDEX.md) · [Day 8 →](../day_8_strings_and_canonicalization/day_8_strings_and_canonicalization.md)

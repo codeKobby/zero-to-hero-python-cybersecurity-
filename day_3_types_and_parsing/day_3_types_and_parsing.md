@@ -1,6 +1,9 @@
 # Day 3: Types, Conversion, and Parsing Boundaries
 
-[← Day 2](../day_02_values_names_and_input/day_02_values_names_and_input.md) · [Day index](../DAY_INDEX.md) · [Day 4 →](../day_04_operators_and_decisions/day_04_operators_and_decisions.md)
+[← Day 2](../day_2_values_names_and_input/day_2_values_names_and_input.md) · [Day index](../DAY_INDEX.md) · [Day 4 →](../day_4_operators_and_decisions/day_4_operators_and_decisions.md)
+
+
+
 
 
 
@@ -13,8 +16,8 @@
 - [Outcomes](#outcomes)
 - [The problem](#the-problem)
 - [Security boundary](#security-boundary)
-- [Vocabulary](#vocabulary)
-- [Lesson](#lesson)
+- [Keywords and terms](#keywords-and-terms)
+- [Topics](#topics)
 - [1. Read a value's type before choosing an operation](#1-read-a-values-type-before-choosing-an-operation)
 - [2. Convert first, validate second](#2-convert-first-validate-second)
 - [3. Boolean conversion is not language understanding](#3-boolean-conversion-is-not-language-understanding)
@@ -55,11 +58,11 @@ A log line may contain `severity=7`, but the characters `7` are not automaticall
 
 This lesson is educational and local. It does not authorize public scanning, credential use, data collection, exploitation, interception, or changes to systems you do not own. The cybersecurity examples use invented names, loopback targets, or repository fixtures.
 
-## Vocabulary
+## Keywords and terms
 
 A **type** describes what kind of value Python is holding. A `str` is text, an `int` is a whole number, a `float` is a decimal number, a `bool` is `True` or `False`, and `None` represents the deliberate absence of a value. **Conversion** asks Python to create a value of another type. **Parsing** is the wider job of interpreting a representation according to rules. **Validation** checks whether the interpreted value is allowed.
 
-## Lesson
+## Topics
 
 Start with inspection:
 
@@ -433,4 +436,4 @@ Day 3 is complete when you can inspect a value's type, explain why conversion an
 [4]: https://docs.python.org/3/tutorial/errors.html "Python errors and exceptions"
 [5]: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html "OWASP input validation guidance"
 
-[← Day 2](../day_02_values_names_and_input/day_02_values_names_and_input.md) · [Day index](../DAY_INDEX.md) · [Day 4 →](../day_04_operators_and_decisions/day_04_operators_and_decisions.md)
+[← Day 2](../day_2_values_names_and_input/day_2_values_names_and_input.md) · [Day index](../DAY_INDEX.md) · [Day 4 →](../day_4_operators_and_decisions/day_4_operators_and_decisions.md)

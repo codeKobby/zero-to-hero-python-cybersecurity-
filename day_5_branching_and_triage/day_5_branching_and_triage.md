@@ -1,6 +1,9 @@
 # Day 5: Branching and a First Triage Classifier
 
-[← Day 4](../day_04_operators_and_decisions/day_04_operators_and_decisions.md) · [Day index](../DAY_INDEX.md) · [Day 6 →](../day_06_loops_and_bounded_work/day_06_loops_and_bounded_work.md)
+[← Day 4](../day_4_operators_and_decisions/day_4_operators_and_decisions.md) · [Day index](../DAY_INDEX.md) · [Day 6 →](../day_6_loops_and_bounded_work/day_6_loops_and_bounded_work.md)
+
+
+
 
 
 
@@ -13,8 +16,8 @@
 - [Outcomes](#outcomes)
 - [The problem](#the-problem)
 - [Security boundary](#security-boundary)
-- [Vocabulary](#vocabulary)
-- [Lesson](#lesson)
+- [Keywords and terms](#keywords-and-terms)
+- [Topics](#topics)
 - [1. An `if` statement asks one question](#1-an-if-statement-asks-one-question)
 - [2. Add an alternative with `else`](#2-add-an-alternative-with-else)
 - [3. Use `elif` for several ranges](#3-use-elif-for-several-ranges)
@@ -57,11 +60,11 @@ A classifier receives a synthetic record and must choose one label. If condition
 
 This lesson is educational and local. It does not authorize public scanning, credential use, data collection, exploitation, interception, or changes to systems you do not own. The cybersecurity examples use invented names, loopback targets, or repository fixtures.
 
-## Vocabulary
+## Keywords and terms
 
 A **branch** is one possible path through a program. A **classifier** assigns a label according to rules. A **default** is what happens when no special case matches. **Unknown** means the program lacks enough information; it should not automatically mean safe.
 
-## Lesson
+## Topics
 
 Start with one branch:
 
@@ -343,4 +346,4 @@ Day 5 is complete when you can design a decision table, implement ordered branch
 [3]: https://csrc.nist.gov/glossary/term/risk "NIST risk glossary"
 [4]: https://www.cisa.gov/topics/cyber-threats-and-advisories "CISA cyber threat guidance"
 
-[← Day 4](../day_04_operators_and_decisions/day_04_operators_and_decisions.md) · [Day index](../DAY_INDEX.md) · [Day 6 →](../day_06_loops_and_bounded_work/day_06_loops_and_bounded_work.md)
+[← Day 4](../day_4_operators_and_decisions/day_4_operators_and_decisions.md) · [Day index](../DAY_INDEX.md) · [Day 6 →](../day_6_loops_and_bounded_work/day_6_loops_and_bounded_work.md)

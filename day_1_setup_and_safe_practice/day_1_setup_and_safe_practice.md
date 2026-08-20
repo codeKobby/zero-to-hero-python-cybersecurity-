@@ -1,6 +1,9 @@
 # Day 1: Your First Python Program and Your First Safe Cybersecurity Habit
 
-[Day index](../DAY_INDEX.md) · [Day 2 →](../day_02_values_names_and_input/day_02_values_names_and_input.md)
+[Day index](../DAY_INDEX.md) · [Day 2 →](../day_2_values_names_and_input/day_2_values_names_and_input.md)
+
+
+
 
 
 
@@ -11,13 +14,14 @@
 - [Welcome to programming](#welcome-to-programming)
 - [What you need before starting](#what-you-need-before-starting)
 - [The problem: a computer does not understand an intention](#the-problem-a-computer-does-not-understand-an-intention)
-- [Vocabulary in ordinary language](#vocabulary-in-ordinary-language)
+- [Keywords and terms in ordinary language](#keywords-and-terms-in-ordinary-language)
   - [Program](#program)
   - [Source code](#source-code)
   - [Interpreter](#interpreter)
   - [Command](#command)
   - [Output](#output)
   - [Error](#error)
+- [Topics](#topics)
 - [Worked examples](#worked-examples)
   - [Example 1: reading the first line character by character](#example-1-reading-the-first-line-character-by-character)
   - [Example 2: sequence means top to bottom](#example-2-sequence-means-top-to-bottom)
@@ -84,7 +88,7 @@ Do not continue by guessing. Use the interpreter command that worked on your mac
 
 Suppose you want the computer to greet you. You may think, “Tell the computer to say hello.” A computer cannot execute that sentence as ordinary English because it needs exact syntax: the spelling, punctuation, and structure that Python recognizes.
 
-Create a file named `day_01_hello.py` and write:
+Create a file named `day_1_hello.py` and write:
 
 ```python
 print("Hello, Python")
@@ -93,7 +97,7 @@ print("Hello, Python")
 Save the file. In the terminal, run:
 
 ```text
-python day_01_hello.py
+python day_1_hello.py
 ```
 
 Expected output:
@@ -112,11 +116,11 @@ You have just completed the smallest useful programming loop:
 
 If the terminal says it cannot find the file, the Python code may be perfectly correct. The terminal may simply be in a different folder. This is your first debugging distinction: **a program problem and a file-location problem are not the same problem**.
 
-## Vocabulary in ordinary language
+## Keywords and terms in ordinary language
 
 ### Program
 
-A **program** is a set of instructions. `day_01_hello.py` is a program containing one instruction: call `print` with the text `Hello, Python`.
+A **program** is a set of instructions. `day_1_hello.py` is a program containing one instruction: call `print` with the text `Hello, Python`.
 
 ### Source code
 
@@ -124,11 +128,11 @@ A **program** is a set of instructions. `day_01_hello.py` is a program containin
 
 ### Interpreter
 
-An **interpreter** is a program that reads Python source code and performs the instructions. When you type `python day_01_hello.py`, `python` is the interpreter command and the filename is the source file it should read.
+An **interpreter** is a program that reads Python source code and performs the instructions. When you type `python day_1_hello.py`, `python` is the interpreter command and the filename is the source file it should read.
 
 ### Command
 
-A **command** is text you type into the terminal. `python day_01_hello.py` is a command. The terminal sends it to the operating system, which starts Python with that file as an input.
+A **command** is text you type into the terminal. `python day_1_hello.py` is a command. The terminal sends it to the operating system, which starts Python with that file as an input.
 
 ### Output
 
@@ -137,6 +141,10 @@ A **command** is text you type into the terminal. `python day_01_hello.py` is a 
 ### Error
 
 An **error** is information that the computer gives you when it cannot perform an instruction as written. An error is not a personal failure. It is evidence about what Python could not understand or do.
+
+## Topics
+
+This lesson moves through four topics: what a Python program is, how the interpreter runs it, how to read an error, and how to practise safely. Each topic introduces one idea before the next one depends on it.
 
 ## Worked examples
 
@@ -415,7 +423,7 @@ Complete these in `practice/exercises.md` in order:
 8. Create a program with three print calls where the second call has a deliberate name error. Predict which lines will appear before the error and which line will never run.
 9. Repair Question 8 with one small change. Record the before and after output.
 10. Run the course starter and write down the command you used, the output you received, and the folder from which you ran it.
-11. Explain the difference between source code, a command, the interpreter, and output using this example: `python day_01_hello.py`.
+11. Explain the difference between source code, a command, the interpreter, and output using this example: `python day_1_hello.py`.
 12. Safety question: list three systems or data sources that are out of scope for this lesson and three safe substitutes inside the repository.
 13. Write a short paragraph answering: why is reading an error message a programming skill rather than a sign that you failed?
 14. Explain what the computer can and cannot infer from the printed sentence `Training mode: local and synthetic data only`.

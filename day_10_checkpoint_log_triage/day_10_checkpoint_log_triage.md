@@ -1,6 +1,9 @@
 # Day 10: Checkpoint: Build a Safe Log-Triage Classifier
 
-[← Day 9](../day_09_functions_and_validation/day_09_functions_and_validation.md) · [Day index](../DAY_INDEX.md) · [Day 11 →](../day_11_function_contracts/day_11_function_contracts.md)
+[← Day 9](../day_9_functions_and_validation/day_9_functions_and_validation.md) · [Day index](../DAY_INDEX.md) · [Day 11 →](../day_11_function_contracts/day_11_function_contracts.md)
+
+
+
 
 
 
@@ -13,8 +16,8 @@
 - [Outcomes](#outcomes)
 - [The problem](#the-problem)
 - [Security boundary](#security-boundary)
-- [Vocabulary](#vocabulary)
-- [Lesson](#lesson)
+- [Keywords and terms](#keywords-and-terms)
+- [Topics](#topics)
 - [1. A pipeline is a sequence of small stages](#1-a-pipeline-is-a-sequence-of-small-stages)
 - [2. Parse a simple key-value line](#2-parse-a-simple-key-value-line)
 - [3. Classify without making accusations](#3-classify-without-making-accusations)
@@ -56,11 +59,11 @@ A log-triage program must accept a small synthetic fixture, parse each line, cla
 
 This lesson is educational and local. It does not authorize public scanning, credential use, data collection, exploitation, interception, or changes to systems you do not own. The cybersecurity examples use invented names, loopback targets, or repository fixtures.
 
-## Vocabulary
+## Keywords and terms
 
 A **fixture** is a supplied test input. A **pipeline** is a sequence of transformations. **Triage** is prioritizing items for review, not declaring guilt. A **summary** is a compact report. **Completeness** says whether all permitted input was processed.
 
-## Lesson
+## Topics
 
 Start with a fixture represented as a list of strings:
 
@@ -362,4 +365,4 @@ Day 10 is complete when you can explain the pipeline from fixture to report, pro
 [4]: https://csrc.nist.gov/glossary/term/log_analysis "NIST log analysis glossary"
 [5]: https://owasp.org/www-community/attacks/Denial_of_Service "OWASP denial of service overview"
 
-[← Day 9](../day_09_functions_and_validation/day_09_functions_and_validation.md) · [Day index](../DAY_INDEX.md) · [Day 11 →](../day_11_function_contracts/day_11_function_contracts.md)
+[← Day 9](../day_9_functions_and_validation/day_9_functions_and_validation.md) · [Day index](../DAY_INDEX.md) · [Day 11 →](../day_11_function_contracts/day_11_function_contracts.md)
