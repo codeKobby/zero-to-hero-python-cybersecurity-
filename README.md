@@ -4,7 +4,7 @@ Welcome to a **beginner-first, Python-centered cybersecurity engineering course*
 
 This is not a 30-day challenge and it is not a promise that reading lessons alone creates a professional security engineer. It is a **120-day core pathway** with six optional specialization tracks. Each day asks you to read, run, change, practise, test, explain, and reflect. The course uses Python as the main instrument while teaching the broader foundations that make security automation useful.
 
-> **Safety rule:** Only run security tests against systems, applications, data, and accounts that you own or have explicit permission to test. The default labs are local, synthetic, bounded, and resettable.
+> **Safety rule:** Only run security tests against systems, applications, data, and accounts that you own or have explicit permission to test. The default labs are local, synthetic, bounded, and resettable. For the best interactive learning experience, install the public [code-buddy learning workflow](CODE_BUDDY.md).
 
 ## Start here
 
@@ -19,6 +19,7 @@ If you have never programmed before, follow these files in order:
 7. [LeetCode guide](LEETCODE_GUIDE.md) — build problem-solving fluency without confusing puzzles with security engineering.
 8. [Resources](RESOURCES.md) — use official documentation and authorized training labs effectively.
 9. [Video resources](VIDEO_RESOURCES.md) — use inline and optional YouTube segments with exact timestamps.
+10. [Code Buddy workflow](CODE_BUDDY.md) — install the repository-aware learning commands for quizzes, exercises, assessment, review, and progress.
 
 ## Contents
 
